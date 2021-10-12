@@ -1,0 +1,10 @@
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.exe.config
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.exe
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.pdb
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\lr_1.csproj.AssemblyReference.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.Properties.Resources.resources
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\lr_1.csproj.GenerateResource.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\lr_1.csproj.CoreCompileInputs.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.exe
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.pdb
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\lr_1.Com_port.resources
