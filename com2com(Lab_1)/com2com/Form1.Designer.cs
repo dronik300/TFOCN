@@ -20,11 +20,11 @@ namespace lr_1
         {
             this.InputBox = new System.Windows.Forms.TextBox();
             this.ComboBox = new System.Windows.Forms.ComboBox();
-            this.Debug = new System.Windows.Forms.Label();
             this.SendButton = new System.Windows.Forms.Button();
             this.OutputBox = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Debug = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -53,15 +53,6 @@ namespace lr_1
             this.ComboBox.Size = new System.Drawing.Size(121, 28);
             this.ComboBox.TabIndex = 1;
             this.ComboBox.SelectedIndexChanged += new System.EventHandler(this.ComboBox_SelectedIndexChanged_1);
-            // 
-            // Debug
-            // 
-            this.Debug.AutoSize = true;
-            this.Debug.Location = new System.Drawing.Point(6, 27);
-            this.Debug.Name = "Debug";
-            this.Debug.Size = new System.Drawing.Size(21, 20);
-            this.Debug.TabIndex = 2;
-            this.Debug.Text = "...";
             // 
             // SendButton
             // 
@@ -108,6 +99,15 @@ namespace lr_1
             this.groupBox2.Text = "Output";
             this.groupBox2.AutoSizeChanged += new System.EventHandler(this.Form1_Load);
             // 
+            // Debug
+            // 
+            this.Debug.AutoSize = true;
+            this.Debug.Location = new System.Drawing.Point(6, 27);
+            this.Debug.Name = "Debug";
+            this.Debug.Size = new System.Drawing.Size(21, 20);
+            this.Debug.TabIndex = 2;
+            this.Debug.Text = "...";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.Debug);
@@ -119,7 +119,7 @@ namespace lr_1
             this.groupBox3.Text = "Control/Debug";
             this.groupBox3.AutoSizeChanged += new System.EventHandler(this.Form1_Load);
             // 
-            // Com
+            // Com_port
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
@@ -131,26 +131,25 @@ namespace lr_1
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Com";
+            this.Name = "Com_port";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Com_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-                this.ResumeLayout(false);
+            this.ResumeLayout(false);
 
         }
 
         
-
-        private System.Windows.Forms.Label Debug;
         private System.Windows.Forms.Button SendButton;
         private System.Windows.Forms.ComboBox ComboBox;
         private System.Windows.Forms.ListBox OutputBox;
         private System.Windows.Forms.TextBox InputBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label Debug;
         private System.Windows.Forms.GroupBox groupBox3;
     }
 }

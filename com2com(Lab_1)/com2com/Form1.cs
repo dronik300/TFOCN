@@ -36,7 +36,7 @@ namespace lr_1
         }
 
         private void serialPort_DataReceived(object sender, SerialDataReceivedEventArgs e) {        //if received messasge in port, signal to read it
-            Debug.Text = ("got message\n");
+            Debug.Text = ("got message:\n");
             CanRead = true;
         }
 
@@ -171,5 +171,7 @@ namespace lr_1
                 }
             }
         }
+
+
     }
 }
