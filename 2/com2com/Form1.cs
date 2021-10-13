@@ -49,22 +49,6 @@ namespace lr_1
                         {
                             string message;
                             message = ComPort.ReadLine();
-                            //richTextBox1.AppendText("\n");
-                            //richTextBox1.SelectionColor = Color.Red;
-                            //richTextBox1.AppendText(message);
-
-                            //Debug.Invoke((MethodInvoker)delegate
-                            //{
-                            //    Debug.Text += message;
-                            //    //richTextBox1.SelectionColor = Color.Red;
-                            //    richTextBox1.Clear();
-                            //    richTextBox1.AppendText(message);
-                            //    //richTextBox1.SelectionStart = 0;
-                            //    //richTextBox1.SelectionLength = 1;
-                            //    //richTextBox1.SelectionColor = Color.Red;
-
-                            //});
-
                             for (int index=0; index<message.Length; index++)
                             {
                                 string output="";
@@ -84,26 +68,8 @@ namespace lr_1
                                     richTextBox1.AppendText(output);
                                 }
                             }
-                            //richTextBox1.SelectionBackColor = Color.Blue;
-                            //for (int index = 0; index < message.Length; index++)
-                            //{
-                            //    if ((message[index] == '@') && (message[index + 1] == '+'))
-                            //    {
-                            //        richTextBox1.SelectionColor = Color.Red;
-                            //        richTextBox1.AppendText("@+");
-                            //        richTextBox1.Text += message[index];
-                            //        richTextBox1.Text += message[index + 1];
-                            //        richTextBox1.Select(index, 2);
-                            //        index++;
-                            //    }
-                            //    else
-                            //    {
-                            //        richTextBox1.SelectionColor = Color.Green;
-                            //        richTextBox1.Text += message[index];
-                            //        richTextBox1.Select(index, 1);
-                            //    }
-                            //}
-                            message = message.Replace("@+","g");
+                            staffing = new Staffing();
+                            message = Staffing.unByteStaffing(message);
                             OutputBox.Items.Add(message); 
                         });
                     }
@@ -115,9 +81,6 @@ namespace lr_1
             }
         }
 
-        //portName - хранит текущий порт, tmp_port - старый порт 
-        //PortName сохраняет имя нового порта, отключаемся от старого порта
-        //и пытемся подключится к новому. если не получается, то подключаемся к старому
         private void ComboBox_SelectedIndexChanged_1(object sender, EventArgs e) {                      
             Change++;
             string PreviousName = PortNumber;
@@ -166,7 +129,8 @@ namespace lr_1
                 {
                     string writeLine = Convert.ToString(InputBox.Text);
                     staffing = new Staffing();
-                    writeLine = writeLine.Replace("g", "@+");
+                    //writeLine = writeLine.Replace("g", "@+");
+                    writeLine = Staffing.byteStaffing(writeLine);
                     OutputBox.ForeColor = System.Drawing.Color.Blue;
                     ComPort.WriteLine(writeLine);
                     InputBox.Text = "";
