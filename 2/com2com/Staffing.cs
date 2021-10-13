@@ -10,11 +10,11 @@ namespace lr_1
     {
         public const char flag = 'g';
         private const char ESC = '+';
-        private const char ESCChange = (char)43;
-        private const char flagChange = '@';
+        private const char ESCChange = '$';
 
         public static string byteStaffing(string message)
         {
+            message = message.Replace("+", "?");
             message = message.Replace("g", "@+");
             return message;
         }
@@ -22,6 +22,7 @@ namespace lr_1
         public static string unByteStaffing(string message)
         {
             message = message.Replace("@+", "g");
+            message = message.Replace("?", "+");
             return message;
         }
     }

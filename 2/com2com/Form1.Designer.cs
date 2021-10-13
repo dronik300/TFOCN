@@ -101,6 +101,7 @@ namespace lr_1
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 290);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(341, 69);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Tag = "";

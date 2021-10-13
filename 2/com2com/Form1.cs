@@ -131,7 +131,6 @@ namespace lr_1
                     staffing = new Staffing();
                     //writeLine = writeLine.Replace("g", "@+");
                     writeLine = Staffing.byteStaffing(writeLine);
-                    OutputBox.ForeColor = System.Drawing.Color.Blue;
                     ComPort.WriteLine(writeLine);
                     InputBox.Text = "";
                     richTextBox1.AppendText("\nsend message");
@@ -178,7 +177,8 @@ namespace lr_1
                 if (InputBox.Text[InputBox.Text.Length - 1] == '\n' && InputBox.Text.TrimEnd('\r', '\n') != "") {
                     try {
                         string message = Convert.ToString(InputBox.Text.TrimEnd('\r', '\n'));
-                        message = message.Replace("g","@+");
+                        staffing = new Staffing();
+                        message = Staffing.byteStaffing(message);
                         ComPort.WriteLine(message);
                         InputBox.Text = null;
                         richTextBox1.AppendText("\nsend message");
