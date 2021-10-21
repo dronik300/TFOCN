@@ -1,0 +1,29 @@
+D:\Projects C#\Toks\com2com\com2com\bin\Debug\com2com.exe
+D:\Projects C#\Toks\com2com\com2com\bin\Debug\com2com.exe.config
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.Properties.Resources.resources
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.csproj.GenerateResource.cache
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.csproj.CoreCompileInputs.cache
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.exe
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.pdb
+D:\Projects C#\Toks\com2com\com2com\bin\Debug\com2com.pdb
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.com2com.resources
+D:\Projects C#\Toks\com2com\com2com\obj\Debug\com2com.csproj.AssemblyReference.cache
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\bin\Debug\com2com.exe.config
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\bin\Debug\com2com.exe
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\bin\Debug\com2com.pdb
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.com2com.resources
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.Properties.Resources.resources
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.csproj.GenerateResource.cache
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.csproj.CoreCompileInputs.cache
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.exe
+D:\Projects C#\Toks\TOKS\com2com(Lab_1)\com2com\obj\Debug\com2com.pdb
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.exe.config
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.exe
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\bin\Debug\com2com.pdb
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.csproj.AssemblyReference.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.Properties.Resources.resources
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.csproj.GenerateResource.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.csproj.CoreCompileInputs.cache
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.exe
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\com2com.pdb
+C:\Users\dronik\Desktop\TOKS-main\com2com(Lab_1)\com2com\obj\Debug\lr_1.Com.resources
